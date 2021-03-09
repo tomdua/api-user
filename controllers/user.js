@@ -67,7 +67,7 @@ exports.login = (req,res, next)=>{
             }
           );
           return res.status(200).json({
-id:            token: token
+            token: token
           });
         }
     });
