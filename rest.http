@@ -1,0 +1,25 @@
+
+GET http://localhost:3000/user/allusers
+
+###
+
+POST http://localhost:3000/user/login 
+content-type: application/json
+
+{
+    "username": "tomduany1",
+    "password": "1234"
+}
+
+###
+
+POST http://localhost:3000/user/register
+content-type: application/json
+
+{
+  "username":"tom",
+  "firstname": "telaviv",
+  "lastame": "telavivi",
+  "password":"1234",
+  "age":25
+}
