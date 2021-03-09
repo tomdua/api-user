@@ -12,6 +12,7 @@ module.exports  = async (req, res, next) => {
     }).then(() => {
       next()
     })
+    
   } catch (error) {
     return res.status(401).json({
       message: 'Auth failed',
@@ -19,3 +20,4 @@ module.exports  = async (req, res, next) => {
     });
   }
 };
+

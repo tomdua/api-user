@@ -37,8 +37,11 @@ exports.allUser = async(req, res, next) => {
           })
         }
   });
+  
 }
 }
+
+
 
 exports.login = (req,res, next)=>{
    User.find({username:req.body.username }).exec()

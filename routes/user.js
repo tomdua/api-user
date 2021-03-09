@@ -16,3 +16,4 @@ router.use(checkAuth)
 router.put("/updatename", UserController.updateName)
 
 module.exports = router;
+
